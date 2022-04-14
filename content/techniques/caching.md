@@ -231,10 +231,8 @@ import { AppController } from './app.controller';
       store: redisStore,
 
       // Store-specific configuration:
-      socket: {
-        host: 'localhost',
-        port: 6379,
-      },
+      host: 'localhost',
+      port: 6379,
     }),
   ],
   controllers: [AppController],
